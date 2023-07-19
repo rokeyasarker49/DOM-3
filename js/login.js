@@ -8,7 +8,7 @@ document.getElementById('login-btn').addEventListener('click', function(){
 
         if(emailValue == 'rokeya@gmail.com' && passwordValue == 'rokeya'){
                 console.log("You are the real user");
-                window.location.href('dashboard.html');
+                window.location.href = 'dashboard.html';
         }
         else{
                 console.log('You are false')
