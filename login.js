@@ -1,4 +1,4 @@
-document.getElementById('login-btn').addEventListener('click', function){
+document.getElementById('login-btn').addEventListener('click', function(){
         const email = document.querySelector('#email');
         const password = document.querySelector('#password');
         const emailValue = email.value;
@@ -15,7 +15,7 @@ document.getElementById('login-btn').addEventListener('click', function){
                 alert('You are a hacker')
         }
 
-}
+})
 
 function myFunction() {
         var x = document.getElementById("password");
